@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./sabi.php" method="post">
+        <div class="modal-body mx-3">
+          <div class="md-form mb-5">
+            <i class="fas fa-user prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="form34">First name</label>
+            <input name="fname" type="text" id="form34" class="form-control validate" value="" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-user prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="form34">Last name</label>
+            <input name="lname" type="text" id="form34" class="form-control validate" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label data-error="Enter a valid mail ID" data-success="right" for="form29">Your email</label>
+            <input name="email" type="email" id="form29" class="form-control validate" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="form32">Subject</label>
+            <input name="subject" type="text" id="form32" class="form-control validate" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-phone-square-alt"></i>
+            <label data-error="wrong" data-success="right" for="form32">Phone number</label>
+            <input name="ph_no" type="tel" id="form32" class="form-control validate" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-toolbox"></i>
+            <label data-error="wrong" data-success="right" for="form32">Company name</label>
+            <input name="cname" type="text" id="form32" class="form-control validate" />
+          </div>
+    
+          <div class="md-form mb-5">
+            <i class="fas fa-globe"></i>
+            <label data-error="wrong" data-success="right" for="form32">Website URL (if you have one)</label>
+            <input name="url" type="text" id="form32" class="form-control validate" />
+          </div>
+    
+          <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+            <i class="fas fa-calendar input-prefix"></i>
+            <label for="example">When can we talk</label>
+            <input name="date" placeholder="Select date" type="date" id="example" class="form-control" />
+          </div>
+          <br /><br />
+          <div class="md-form mb-5">
+            <i class="fas fa-stream"></i>
+            <label data-error="wrong" data-success="right" for="form8">Inform shortly about your request</label>
+            <textarea name="request" type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button name="insertdata" class="btn1 btn-unique">
+            Send
+            <i class="fas fa-paper-plane-o ml-1"></i>
+          </button>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="text-center">
+    <a href="" class="btn btn-secondary animate-up-2" data-toggle="modal" data-target="#modalContactForm">
+    <span class="mr-2"><i class="fas fa-hand-pointer"></i></span>
+    Request early access</a>
+    </form>
+</body>
+</html>
